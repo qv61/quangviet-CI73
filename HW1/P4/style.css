@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.phonebook {
+    margin-top: 24px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.phonebook-content {
+    padding: 16px 50px;
+}
+
+.add {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #EEEEEE;
+}
+
+input#name,
+input#phone {
+    background-color: #EEEEEE;
+    padding: 6px 20px 6px 4px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#btn-more {
+    text-transform: uppercase;
+    background: #3057BE;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px 28px;
+    border: 1px;
+    border-radius: 6px;
+}
+
+.search {
+    padding-top: 20px;
+}
+
+.search input {
+    background-color: #EEEEEE;
+    padding: 6px 137px 6px 4px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #ccc;
+}
+
+#btn-find,
+#btn-delete{
+    text-transform: uppercase;
+    background: #3057BE;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    border: 1px;
+    border-radius: 6px;
+}
+
+.phonebook-desc {
+    margin-top: 28px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 12px 24px;
+    background: #e3e3e3;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
